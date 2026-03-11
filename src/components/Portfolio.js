@@ -5,46 +5,70 @@ import todoApp from "../assets/portfolio/todoapp.png";
 import tictactoeApp from "../assets/portfolio/tictactoeapp.png";
 import currencyConverterApp from "../assets/portfolio/currencyconverterapp.png";
 import calculatorApp from "../assets/portfolio/calculatorapp.png";
+import openfeedbackApp from "../assets/portfolio/openfeedbackapp.png";
+import streamaiApp from "../assets/portfolio/streamaiapp.png";
+import blogifyApp from "../assets/portfolio/blogifyapp.png";
 
 const Portfolio = () => {
   const projects = [
     {
       id: 1,
+      src: streamaiApp,
+      code: "https://github.com/hiteshbatra1/Stream-AI-Project",
+      live: "https://github.com/hiteshbatra1/Stream-AI-Project",
+      title: "Stream AI",
+    },
+    {
+      id: 2,
+      src: openfeedbackApp,
+      code: "https://github.com/hiteshbatra1/Open-Feedback-Project",
+      live: "https://open-feedback-hitesh.vercel.app/",
+      title: "Open Feedback",
+    },
+    {
+      id: 3,
+      src: blogifyApp,
+      code: "https://github.com/hiteshbatra1/Blogify-Project",
+      live: "https://github.com/hiteshbatra1/Blogify-Project",
+      title: "Blogify",
+    },
+    {
+      id: 4,
       src: flavourflyApp,
       code: "https://github.com/hiteshbatra1/Flavour-fly",
       live: "https://hitesh-flavourfly.netlify.app/",
       title: "Flavour Fly",
     },
     {
-      id: 2,
+      id: 5,
       src: recipeApp,
       code: "https://github.com/hiteshbatra1/Recipe-App",
       live: "https://hitesh-recipeapp.netlify.app/",
       title: "Recipe App",
     },
     {
-      id: 3,
+      id: 6,
       src: todoApp,
       code: "https://github.com/hiteshbatra1/To-Do-List-Project",
       live: "https://hitesh-todo-list.netlify.app/",
       title: "To-Do List",
     },
     {
-      id: 4,
+      id: 7,
       src: tictactoeApp,
       code: "https://github.com/hiteshbatra1/Tic-Tac-Toe",
       live: "https://hitesh-tic-tac-toe.netlify.app/",
       title: "Tic-Tac-Toe",
     },
     {
-      id: 5,
+      id: 8,
       src: currencyConverterApp,
       code: "https://github.com/hiteshbatra1/Currency-Converter",
       live: "https://hitesh-currency-converter.netlify.app/",
       title: "Currency Converter",
     },
     {
-      id: 6,
+      id: 9,
       src: calculatorApp,
       code: "https://github.com/hiteshbatra1/Calculator",
       live: "https://hitesh-calculator.netlify.app/",
