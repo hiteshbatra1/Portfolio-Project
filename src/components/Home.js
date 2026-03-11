@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 scroll-mt-20"
+      className="min-h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 scroll-mt-20 overflow-hidden"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center px-4 py-28 sm:py-20 sm:h-full sm:flex-row">
         <div className="flex flex-col justify-center items-center mb-8 sm:items-start h-full">
@@ -39,7 +39,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="My Profile"
-            className="rounded-2xl w-full sm:mt-24"
+            className="rounded-2xl w-full sm:mt-24 max-h-[32rem] object-contain"
           />
         </div>
       </div>
