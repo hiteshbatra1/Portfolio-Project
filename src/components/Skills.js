@@ -62,8 +62,8 @@ const Skills = () => {
 
   return (
     <div
-      name="skills"
-      className="bg-gradient-to-b from-gray-800 to-black w-full "
+      id="skills"
+      className="bg-gradient-to-b from-gray-800 to-black w-full scroll-mt-20 "
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full px-4 pt-28 pb-10 sm:py-28 text-white">
         <div>

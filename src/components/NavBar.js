@@ -39,7 +39,9 @@ const NavBar = () => {
             key={id}
             className="px-4 cursor-pointer capitalize font-medium text-gray-500  hover:scale-105 duration-200"
           >
-            {link}
+            <a href={`#${link}`} className="block">
+              {link}
+            </a>
           </li>
         ))}
       </ul>
@@ -57,8 +59,11 @@ const NavBar = () => {
             <li
               key={id}
               className="px-4 cursor-pointer capitalize py-6  text-4xl"
+              onClick={() => setNav(false)}
             >
-              {link}
+              <a href={`#${link}`} className="block">
+                {link}
+              </a>
             </li>
           ))}
         </ul>
