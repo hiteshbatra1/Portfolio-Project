@@ -18,11 +18,7 @@ const Contact = () => {
         </div>
 
         <div className="flex justify-center items-center">
-          <form
-            action=""
-            method="POST"
-            className="flex flex-col w-full md:w-1/2 gap-4"
-          >
+          <form action="" className="flex flex-col w-full md:w-1/2 gap-4">
             <div className="flex flex-col gap-1">
               <label htmlFor="name" className="text-sm text-gray-400 ml-1">
                 Name
