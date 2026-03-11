@@ -7,6 +7,14 @@ import NODEIMAGE from "../assets/node.png";
 import REDUXIMAGE from "../assets/redux.png";
 import TAILWIND from "../assets/tailwind.png";
 import GITHUB from "../assets/github.png";
+import VSCODE from "../assets/vscode.png";
+import NEXTJS from "../assets/nextjs.png";
+import REMIXJS from "../assets/remixjs.png";
+import DOCKER from "../assets/docker.png";
+import MONGODB from "../assets/mongodb.png";
+import PYTHON from "../assets/python.png";
+import TYPESCRIPT from "../assets/typescript.png";
+import POSTGRESQL from "../assets/postgresql.png";
 
 const Skills = () => {
   const techs = [
@@ -30,30 +38,79 @@ const Skills = () => {
     },
     {
       id: 4,
-      src: REACTIMAGE,
-      title: "React",
-      style: "shadow-blue-600",
+      src: TYPESCRIPT,
+      title: "TypeScript",
+      style: "shadow-yellow-500",
     },
     {
       id: 5,
-      src: TAILWIND,
-      title: "Tailwind",
-      style: "shadow-sky-400",
-    },
-    {
-      id: 6,
       src: NODEIMAGE,
       title: "NodeJs",
       style: "shadow-lime-500",
     },
     {
+      id: 6,
+      src: PYTHON,
+      title: "Python",
+      style: "shadow-yellow-500",
+    },
+    {
       id: 7,
+      src: REACTIMAGE,
+      title: "React",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 8,
+      src: NEXTJS,
+      title: "Next.js",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 9,
+      src: REMIXJS,
+      title: "Remix.js",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 10,
+      src: MONGODB,
+      title: "MongoDB",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 11,
+      src: POSTGRESQL,
+      title: "PostgreSQL",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 12,
+      src: DOCKER,
+      title: "Docker",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 13,
+      src: TAILWIND,
+      title: "Tailwind",
+      style: "shadow-sky-400",
+    },
+
+    {
+      id: 14,
       src: REDUXIMAGE,
       title: "Redux",
       style: "shadow-purple-600",
     },
     {
-      id: 8,
+      id: 15,
+      src: VSCODE,
+      title: "VS Code",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 16,
       src: GITHUB,
       title: "GitHub",
       style: "shadow-gray-400",
