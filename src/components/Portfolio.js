@@ -15,7 +15,7 @@ const Portfolio = () => {
       id: 1,
       src: streamaiApp,
       code: "https://github.com/hiteshbatra1/Stream-AI-Project",
-      live: "https://github.com/hiteshbatra1/Stream-AI-Project",
+      live: "https://stream-ai-project-hitesh.vercel.app/sign-in",
       title: "Stream AI",
     },
     {

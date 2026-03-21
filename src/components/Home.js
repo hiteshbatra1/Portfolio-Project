@@ -15,13 +15,15 @@ const Home = () => {
           </h2>
 
           <p className="text-gray-400 py-5 max-w-xl text-center sm:text-left text-lg leading-relaxed">
-            Currently a Software Engineer at Supervity.ai, I specialize in
-            architecting scalable, end-to-end web applications. I bridge the gap
-            between intuitive user experiences—built with React, Next.js, and
-            TypeScript—and resilient backend systems powered by Node.js and
-            Python. From designing optimized RESTful APIs and modeling complex
-            data with Prisma, to streamlining deployments via Docker, I focus on
-            engineering clean, high-performance solutions that drive impact.
+            I am currently a Software Engineer at Supervity.ai, specializing in
+            the design and development of scalable, end-to-end web applications.
+            My work focuses on bridging intuitive, high-performance user
+            interfaces—built with React, Next.js, and TypeScript—with robust
+            backend systems powered by Node.js and Python. I have experience in
+            designing efficient RESTful APIs, structuring complex data models,
+            and optimizing deployment workflows using Docker. I am committed to
+            delivering clean, maintainable, and high-impact engineering
+            solutions.
           </p>
 
           <div>
